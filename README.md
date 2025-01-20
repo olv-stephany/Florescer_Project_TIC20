@@ -19,6 +19,7 @@ This is a Intermediate Project FrontEnd Web developed using React JS.
 
 ### **Description** 📝
 
+This project consists of a community psychological support platform, We developed this platform as a practice of the intermediate module of the Fullstack Web training course.
 
 #### Contributors 🤝 :
 - Marx Victor
