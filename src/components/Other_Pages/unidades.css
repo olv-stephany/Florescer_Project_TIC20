@@ -1,0 +1,10 @@
+.cards-container{
+    max-width: 100vw;
+    max-height: 100vh;
+    
+}
+.cards-container img{
+    width: 13vw;
+    height: 25vh;
+    
+}
