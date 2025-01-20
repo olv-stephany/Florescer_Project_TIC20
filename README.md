@@ -20,6 +20,13 @@ This is a Intermediate Project FrontEnd Web developed using React JS.
 ### **Description** 📝
 
 
+#### Contributors 🤝 :
+- Marx Victor
+- Luanna Galliza
+- Stephany Oliveira
+
+**Class:** FSN3  
+**Professors:** Fernanda Nascimento e Gabriel Bezerra  
 
 ---
 
