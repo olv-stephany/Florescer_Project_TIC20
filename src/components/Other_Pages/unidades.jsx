@@ -1,35 +1,25 @@
 import './unidades.css'
 import Map from './map'
+import Profissionais from './profissionais'
+import Enderecos from './enderecos'
 
 const unidades = () => {
     return (
         <div>
             <header>
                 <h1>Unidades de Apoio</h1>
+                <p>Encontre a unidade mais proxima de você.</p>
             </header>
             <main>
                 <section className="map-container">
                     <Map></Map>
                 </section>
-                <section>
-                    <div className='localidades-container'>
-                        <div>
-                            <h3>Unidade 1 - Maraponga</h3>
-                            <p>(endereço ficticio)</p>
-                        </div>
-                        <div>
-                            <h3>Unidade 2 - Montese</h3>
-                            <p>(endereço ficticio)</p>
-                        </div>
-                        <div>
-                            <h3>Unidade 3 - Aldeota</h3>
-                            <p>(endereço ficticio)</p>
-                        </div>
-                        <div>
-                            <h3>Unidade 4 - Benfica</h3>
-                            <p>(endereço ficticio, telefone ficticio)</p>
-                        </div>
-                    </div>
+                <section className='localidades-container'>
+                    <Enderecos></Enderecos>
+                </section>
+                <section className='profissionais-container'>
+                    <h2>Ou Realize Sessões Online com Um de Nossos Profissionais:</h2>
+                    <Profissionais></Profissionais>
                 </section>
             </main>
         </div>
