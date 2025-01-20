@@ -1,11 +1,37 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-=======
 # Florescer_Project_TIC20
+
+This is a Intermediate Project FrontEnd Web developed using React JS.
+
+---
+
+## 🚀 **Technologies used**
+
+<div>
+  <img  height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" />
+  
+  <img  height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/framermotion/framermotion-original.svg" />
+      
+  <img height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swiper/swiper-original.svg" />
+              
+</div>
+
+---
+
+### **Description** 📝
+
+
+
+---
+
+### **Project Images** 🖼️
+
+<div>
+  
+  **Laptop view**
+
+ 
+
+  **Mobile view**
+  
+  
 
