@@ -1,0 +1,116 @@
+/* Definindo fontes e base do layout */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f7fa; 
+  color: #555; 
+  line-height: 1.6;
+  padding: 0 20px;
+}
+
+h1, h2, h3 {
+  font-family: 'Helvetica', sans-serif;
+  color: #5f4b8b; /* Lavanda suave */
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-size: 1.3rem;
+  color: #89c2d9; /* Azul claro */
+  margin-bottom: 15px;
+}
+
+/* Área de conteúdo */
+#root {
+  max-width: 1200px;
+  margin: 50px auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+button {
+  background-color: #89c2d9; /* Azul claro */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #76a9c3; /* Azul mais escuro ao passar o mouse */
+}
+
+button:focus {
+  outline: none;
+}
+
+input[type="text"], input[type="email"], textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+  background-color: #f7f7f7; /* Fundo muito suave para campos de entrada */
+}
+
+input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
+  border-color: #89c2d9; /* Cor de foco azul claro */
+  outline: none;
+}
+
+/* Cores suaves e toques extras */
+a {
+  color: #5f4b8b; /* Lavanda para links */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 0.9rem;
+  color: #888;
+}
+
+footer a {
+  color: #89c2d9; /* Azul claro para links no rodapé */
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+
+  #root {
+    padding: 20px;
+  }
+}
