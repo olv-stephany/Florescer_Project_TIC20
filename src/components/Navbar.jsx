@@ -8,8 +8,9 @@ import { Link } from 'react-router-dom';
 function Navbar () {
     return(
         <>
-        <img src={Logo} width={80} height={80} alt="" />
-        <h1>Florescer</h1>
+        <img src={Logo} width={300} height={300} alt="" />
+        <h1>Seu psicólogo a qualquer hora, em qualquer lugar.
+        </h1>
         <Router>
             <nav>
                 <Link to='/'>Home</Link>
