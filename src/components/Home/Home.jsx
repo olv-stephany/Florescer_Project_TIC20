@@ -4,6 +4,7 @@ import Depoimentos from './depoimentos'
 import Sobre from './sobre'
 import Login from './login'
 import Navbar from '../Navbar'
+import '../css/index.css'
 
 
 const Home = () => {
