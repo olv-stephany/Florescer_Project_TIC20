@@ -1,9 +1,9 @@
-import './profissionais.css'
-import image1 from './images/psicologa1.jpg'
-import image2 from './images/psicologo2.jpg'
-import image3 from './images/psicologa3.jpg'
-import image4 from './images/psicologa4.jpg'
-import image5 from './images/psicologo5.jpg'
+import '../css/profissionais.css'
+import image1 from '../images/psicologa1.jpg'
+import image2 from '../images/psicologo2.jpg'
+import image3 from '../images/psicologa3.jpg'
+import image4 from '../images/psicologa4.jpg'
+import image5 from '../images/psicologo5.jpg'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Navigation } from 'swiper/modules';
 import 'swiper/css';

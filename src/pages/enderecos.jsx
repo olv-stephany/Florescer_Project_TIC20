@@ -1,4 +1,4 @@
-import './enderecos.css'
+import '../css/enderecos.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faCalendarDays } from '@fortawesome/free-solid-svg-icons';

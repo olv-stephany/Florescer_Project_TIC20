@@ -1,7 +1,7 @@
-import Logo from './Home/images/logo-Florescer.png'
-import Sobre from './Home/sobre'
-import Login from './Home/login'
-import Unidades from './Other_Pages/unidades'
+import Logo from '../images/logo-Florescer.png'
+import Sobre from '../components/sobre'
+import Login from '../components/login'
+import Unidades from '../pages/unidades'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 

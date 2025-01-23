@@ -1,5 +1,5 @@
 import {useScroll, motion} from 'framer-motion'
-import './sobre.css'
+import '../css/sobre.css'
 import { useEffect, useRef } from 'react';
 
 {/*framer motion = biblioteca de transiçoes e animaçoes */}

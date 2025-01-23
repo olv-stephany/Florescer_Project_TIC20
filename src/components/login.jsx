@@ -1,5 +1,5 @@
-import './login.css'
-import Image from './images/img- login.png'
+import '../css/login.css'
+import Image from '../images/img- login.png'
 
 export default function login() {
   return (

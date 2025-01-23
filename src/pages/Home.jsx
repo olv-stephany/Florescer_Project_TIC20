@@ -1,10 +1,10 @@
-import Carrossel from './carrossel'
-import Estagios from './estagios'
-import Depoimentos from './depoimentos'
-import Sobre from './sobre'
-import Login from './login'
-import Navbar from '../Navbar'
-import '../css/index.css'
+import Carrossel from '../components/carrossel'
+import Estagios from '../components/estagios'
+import Depoimentos from '../components/depoimentos'
+import Sobre from '../components/sobre'
+import Login from '../components/login'
+import Navbar from '../components/Navbar'
+import '../css/home.css'
 
 
 const Home = () => {

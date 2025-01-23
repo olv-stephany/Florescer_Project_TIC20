@@ -1,7 +1,7 @@
-import './unidades.css'
-import Map from './map'
-import Profissionais from './profissionais'
-import Enderecos from './enderecos'
+import '../css/unidades.css'
+import Map from '../pages/map'
+import Profissionais from '../pages/profissionais'
+import Enderecos from '../pages/enderecos'
 
 const unidades = () => {
     return (
