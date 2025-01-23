@@ -6,11 +6,10 @@ import 'swiper/css/pagination'
 import image1 from '../images/img1 - carrossel.png'
 import image2 from '../images/img2 - carrossel.png'
 import image3 from '../images/img3 - carrossel.png'
-import '../css/carrossel.css'
 
 {/* swiper = biblioteca de animaçoes e slides */ }
 
-export default function carousel() {
+export default function Carrossel() {
     const slides = [image1, image2, image3]
     return (
         <div className='carrossel-container'>
@@ -21,7 +20,7 @@ export default function carousel() {
                 slidesPerView={1}>
                 {slides.map((slide, index) => (
                     <SwiperSlide key={index}>
-                        <img src={slide} />
+                        <img src={slide} width={1100}/>
                     </SwiperSlide>
                 ))}
             </Swiper>

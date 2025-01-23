@@ -45,7 +45,7 @@ export default function login() {
 
         <p>Faça parte de nossa comunidade,<a href="#"> Cadastre-se aqui.</a></p>
       </div>
-      <img src={Image} width={400} alt="login image" />
+      <img src={Image} width={700} alt="login image" />
     </div>
   )
 }
