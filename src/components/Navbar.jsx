@@ -25,8 +25,8 @@ function Navbar () {
                 <Route path='/unidades' element={<Unidades/>}/>
                 <Route path='/login' element={<Login/>}/>
             </Routes>
+            <Link to='/unidades'><button type='click'>Buscar Ajuda Agora</button></Link>
         </Router>
-        <button type='click'>Buscar Ajuda Agora</button>
         </>
     )
 }
