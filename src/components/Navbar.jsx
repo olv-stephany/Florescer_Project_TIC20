@@ -1,4 +1,8 @@
 import Logo from '../images/logo-Florescer.png'
+import IconHome from '../images/icon-home.png'
+import IconSobre from '../images/icon-sobre.png'
+import IconUnidades from '../images/icon-unidades.png'
+import IconLogin from '../images/icon-login.png'
 import Sobre from '../components/sobre'
 import Login from '../components/login'
 import Unidades from '../pages/unidades'
@@ -13,10 +17,10 @@ function Navbar () {
         </h1>
         <Router>
             <nav>
-                <Link to='/'>Home</Link>
-                <Link to='/sobre'>Sobre</Link>
-                <Link to='/unidades'>Unidades</Link>
-                <Link to='/login'>Login</Link>
+                <Link to='/'><img src={IconHome} alt="" width={40}/>Home</Link>
+                <Link to='/sobre'><img src={IconSobre} alt="" width={40}/>Sobre</Link>
+                <Link to='/unidades'><img src={IconUnidades} alt="" width={40}/>Unidades</Link>
+                <Link to='/login'><img src={IconLogin} alt="" width={40}/>Login</Link>
             </nav>
 
             <Routes>
