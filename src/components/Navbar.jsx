@@ -12,22 +12,26 @@ function Navbar () {
         <h1>Seu psicólogo a qualquer hora, em qualquer lugar.
         </h1>
         <Router>
-            <nav>
+        <div className="navbar-container">
+        <nav className="navbar">
                 <Link to='/'>Home</Link>
                 <Link to='/sobre'>Sobre</Link>
                 <Link to='/unidades'>Unidades</Link>
                 <Link to='/login'>Login</Link>
             </nav>
+            </div>
 
             <Routes>
                 <Route path='/' element={<home/>}/>
                 <Route path='/sobre' element={<Sobre/>}/>
                 <Route path='/unidades' element={<Unidades/>}/>
-                <Route path='/login' element={<Login/>}/>
+                <Route path='/login' element={<Login/>}/>    
             </Routes>
+
             <Link to='/unidades'><button type='click'>Buscar Ajuda Agora</button></Link>
         </Router>
         </>
+        
     )
 }
 
