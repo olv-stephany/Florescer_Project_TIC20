@@ -3,9 +3,9 @@ import { Pagination, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation'
 import 'swiper/css/pagination'
-import image1 from '../images/img1 - carrossel.png'
-import image2 from '../images/img2 - carrossel.png'
-import image3 from '../images/img3 - carrossel.png'
+import image1 from '../images/img1 - carrossel.jpg'
+import image2 from '../images/img2 - carrossel.jpg'
+import image3 from '../images/img3 - carrossel.jpg'
 
 {/* swiper = biblioteca de animaçoes e slides */ }
 
