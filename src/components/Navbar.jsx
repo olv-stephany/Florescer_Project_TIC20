@@ -1,3 +1,4 @@
+/* nav bar alterações */
 import Logo from '../images/logo-Florescer.png'
 import Sobre from '../components/sobre'
 import Login from '../components/login'
