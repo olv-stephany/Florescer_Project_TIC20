@@ -1,0 +1,14 @@
+.sobre-container{
+    width: 80vw;
+    height: 50vh;
+}
+.sobre-container p{
+    margin-top: 15px;
+    font-size: 17px;
+    font-weight: 350;
+}
+.sobre-container h2{
+    margin-top: 20px;
+    color: #8876ae;
+    font-size: 30px;
+}
