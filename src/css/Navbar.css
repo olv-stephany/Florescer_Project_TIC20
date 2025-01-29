@@ -1,0 +1,33 @@
+nav{
+    margin-left: auto;
+    padding: 10px;
+    background-color: white;
+}
+
+.home{
+    padding: 10px;
+    color: black;
+}
+
+.sobre{
+    padding: 10px;
+    color: black;
+}
+
+.unidades{
+    padding: 10px;
+    color: black;
+}
+
+.login{
+    padding: 10px;
+    color: black;
+}
+
+h1{
+    padding-bottom: 30px;
+}
+
+button{
+    margin-bottom: 100px;
+}

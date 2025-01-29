@@ -6,6 +6,15 @@
   padding: 10px;
   background-color: #f8f9fa;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-left: auto;
+}
+
+.navbartext{
+  padding-bottom: 30px;
+}
+
+.navbarbotton{
+  margin-bottom: 100px;
 }
 
 .navbar {

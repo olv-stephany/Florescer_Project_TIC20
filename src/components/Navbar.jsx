@@ -13,9 +13,6 @@ import { Link } from 'react-router-dom';
 function Navbar() {
     return (
         <>
-            <img src={Logo} width={300} height={300} alt="" />
-            <h1>Seu psicólogo a qualquer hora, em qualquer lugar.
-            </h1>
             <Router>
                 <div className="navbar-container">
                     <nav className="navbar">
@@ -26,14 +23,16 @@ function Navbar() {
                     </nav>
                 </div>
 
+                <img src={Logo} width={300} height={300} alt="" />
+
                 <Routes>
                     <Route path='/' element={<home />} />
                     <Route path='/sobre' element={<Sobre />} />
                     <Route path='/unidades' element={<Unidades />} />
                     <Route path='/login' element={<Login />} />
                 </Routes>
-
-                <Link to='/unidades'><button type='click' className='Buscar-Ajuda-Button'>Buscar Ajuda Agora</button></Link>
+                <h1 className='navbartext'>Seu psicólogo a qualquer hora, em qualquer lugar.</h1>
+                <Link to='/unidades'><button type='click' className='navbarbotton'>Buscar Ajuda Agora</button></Link>
             </Router>
         </>
 
