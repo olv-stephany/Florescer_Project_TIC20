@@ -117,7 +117,7 @@ header .nav-table a:hover {
 }
 
 /*Organizaçao dos botoes para nao interferir na interface de login - Stephany*/
-.Buscar-Ajuda-Button, .enderecos-button, .profissionais-button{
+.navbarbotton, .enderecos-button, .profissionais-button{
   background-color: #89c2d9;
   /* Azul claro */
   border: none;
