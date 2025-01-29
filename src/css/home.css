@@ -22,190 +22,197 @@
   font-weight: bold;
   font-size: 16px;
   border-right: 1px solid #ddd;
+  transition: 0.5s;
 }
 
 .navbar a:last-child {
-  border-right: none; 
+  border-right: none;
 }
 
 .navbar a:hover {
-  background-color: #76a9c3; /* cor azulzinho mais escuro */
+  background-color: #76a9c3;
+  /* cor azulzinho mais escuro */
   color: white;
 }
+
 /* Base do Layout */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f7fa;
+  color: #555;
+  line-height: 1.6;
+  padding: 0 20px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  text-align: center;
+}
+
+header #logo {
+  width: 50px;
+  /* Tamanho da logomarca */
+  height: auto;
+}
+
+header h1 {
+  font-size: 1.5rem;
+  color: #5f4b8b;
+  /* Lavanda suave */
+  font-family: 'Helvetica', sans-serif;
+  margin: 0;
+}
+
+/* Tabela de navegação com fundo lavanda */
+header .nav-table {
+  width: 100%;
+  margin-top: 20px;
+  background-color: #F1A7C1;
+  /* Fundo lavanda */
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  /* Maior separação entre os links */
+  padding: 10px 0;
+  text-align: center;
+}
+
+header .nav-table a {
+  color: white;
+  /* Cor branca para os links */
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+header .nav-table a:hover {
+  text-decoration: underline;
+}
+
+/* Área de Conteúdo Principal */
+#root {
+  max-width: 1200px;
+  margin: 50px auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+/*Organizaçao dos botoes para nao interferir na interface de login - Stephany*/
+.Buscar-Ajuda-Button, .enderecos-button, .profissionais-button{
+  background-color: #89c2d9;
+  /* Azul claro */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #76a9c3;
+  /* Azul mais escuro ao passar o mouse */
+}
+
+button:focus {
+  outline: none;
+}
+
+/* Links */
+a {
+  color: #5f4b8b;
+  /* Lavanda para links */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 0.9rem;
+  color: #888;
+}
+
+footer a {
+  color: #89c2d9;
+  /* Azul claro para links no rodapé */
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Media Query para Telas Menores */
+@media (max-width: 768px) {
   body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f4f7fa;
-    color: #555;
-    line-height: 1.6;
-    padding: 0 20px;
+    padding: 10px;
   }
-  
-  header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 30px;
-    text-align: center;
-  }
-  
-  header #logo {
-    width: 50px;  /* Tamanho da logomarca */
-    height: auto;
-  }
-  
-  header h1 {
-    font-size: 1.5rem;
-    color: #5f4b8b; /* Lavanda suave */
-    font-family: 'Helvetica', sans-serif;
-    margin: 0;
-  }
-  
-  /* Tabela de navegação com fundo lavanda */
-  header .nav-table {
-    width: 100%;
-    margin-top: 20px;
-    background-color: #F1A7C1;  /* Fundo lavanda */
-    display: flex;
-    justify-content: space-between;
-    gap: 30px;  /* Maior separação entre os links */
-    padding: 10px 0;
-    text-align: center;
-  }
-  
-  header .nav-table a {
-    color: white;  /* Cor branca para os links */
-    text-decoration: none;
-    font-size: 1.2rem;
-  }
-  
-  header .nav-table a:hover {
-    text-decoration: underline;
-  }
-  
-  /* Área de Conteúdo Principal */
+
   #root {
-    max-width: 1200px;
-    margin: 50px auto;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-    padding: 30px;
+    padding: 20px;
   }
-  
-  button {
-    background-color: #89c2d9; /* Azul claro */
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    color: white;
+
+  img {
+    width: 100%;
+    /* Garante que as imagens ocupem toda a largura disponível em telas pequenas */
+    height: auto;
+    /* Mantém a proporção das imagens */
+  }
+
+  header .nav-table {
+    flex-direction: column;
+    padding: 20px 0;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2rem;
+    /* Ajuste do tamanho do título para telas menores */
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    /* Ajuste do tamanho do título para telas menores */
+  }
+
+  h3 {
     font-size: 1.1rem;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+    /* Ajuste do tamanho do título para telas menores */
   }
-  
-  button:hover {
-    background-color: #76a9c3; /* Azul mais escuro ao passar o mouse */
+
+  button {
+    padding: 8px 16px;
+    /* Ajuste do botão para telas menores */
   }
-  
-  button:focus {
-    outline: none;
-  }
-  
-  /* Campos de Entrada */
+
   input[type="text"],
   input[type="email"],
   textarea {
-    width: 100%;
-    padding: 12px;
-    margin-top: 8px;
-    margin-bottom: 20px;
-    border-radius: 8px;
-    border: 1px solid #ddd;
-    font-size: 1rem;
-    background-color: #f7f7f7; 
-  }
-  
-  input[type="text"]:focus,
-  input[type="email"]:focus,
-  textarea:focus {
-    border-color: #89c2d9; /* Cor de foco azul claro */
-    outline: none;
-  }
-  
-  /* Links */
-  a {
-    color: #5f4b8b; /* Lavanda para links */
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
- 
-  footer {
-    text-align: center;
-    margin-top: 30px;
     font-size: 0.9rem;
-    color: #888;
+    /* Ajuste do tamanho da fonte dos campos de entrada para telas menores */
   }
-  
-  footer a {
-    color: #89c2d9; /* Azul claro para links no rodapé */
-  }
-  
-  footer a:hover {
-    text-decoration: underline;
-  }
-  
-  /* Media Query para Telas Menores */
-  @media (max-width: 768px) {
-    body {
-      padding: 10px;
-    }
-  
-    #root {
-      padding: 20px;
-    }
-  
-    img {
-      width: 100%; /* Garante que as imagens ocupem toda a largura disponível em telas pequenas */
-      height: auto; /* Mantém a proporção das imagens */
-    }
-  
-    header .nav-table {
-      flex-direction: column;
-      padding: 20px 0;
-      gap: 20px;
-    }
-  }
-  
-  @media (max-width: 480px) {
-    h1 {
-      font-size: 2rem; /* Ajuste do tamanho do título para telas menores */
-    }
-  
-    h2 {
-      font-size: 1.5rem; /* Ajuste do tamanho do título para telas menores */
-    }
-  
-    h3 {
-      font-size: 1.1rem; /* Ajuste do tamanho do título para telas menores */
-    }
-  
-    button {
-      padding: 8px 16px; /* Ajuste do botão para telas menores */
-    }
-  
-    input[type="text"],
-    input[type="email"],
-    textarea {
-      font-size: 0.9rem; /* Ajuste do tamanho da fonte dos campos de entrada para telas menores */
-    }
-  }
+}
+
+/*Posição central do container de Login - Stephany*/
+.login-position{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}

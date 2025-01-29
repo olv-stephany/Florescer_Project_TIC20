@@ -33,7 +33,7 @@ function Navbar() {
                     <Route path='/login' element={<Login />} />
                 </Routes>
 
-                <Link to='/unidades'><button type='click'>Buscar Ajuda Agora</button></Link>
+                <Link to='/unidades'><button type='click' className='Buscar-Ajuda-Button'>Buscar Ajuda Agora</button></Link>
             </Router>
         </>
 

@@ -1,3 +1,158 @@
-.main-container{
+.main-container {
+    position: relative;
+    width: 900px;
+    height: 550px;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .2);
+    overflow: hidden;
+}
+
+.login-container  {
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background-color: #fff;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+    transition: .6s ease-in-out 1.2s, visibility 0s 1s;
+}
+.login-box{
+    text-align: center;
+}
+.main-container.active .login-container{
+    right: 50%;
+}
+
+.profissionais-login{
+    visibility: hidden;
+}
+
+.main-container.active .profissionais-login{
+    visibility: visible;
+}
+
+
+.login-container h1{
+    font-size: 33px;
+    margin: -10px 0;
+    color: #74aac0;
+}
+
+.input-box{
+    position: relative;
+    margin: 30px 0;
     display: flex;
 }
+
+.input-box input{
+    width: 100%;
+    padding: 13px 50px 13px 20px;
+    background: #eee;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+.btn-style{
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    transition: 0.5s;
+}
+
+.login-box p{
+    padding: 13px;
+    font-size: 14px;
+}
+
+.login-button button{
+    margin: 4px;
+    padding: 7px 10px;
+    background: none;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    color: #5f4b8b;
+    transition: 0.5s;
+}
+
+.welcome-container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.welcome-container::before{
+    content: '';
+    position: absolute;
+    left: -250%;
+    width: 300%;
+    height: 100%;
+    background: #5f4b8b;
+    border-radius: 150px;
+    z-index: 2;
+    transition: 1.8s ease-in-out;
+}
+.welcome-container.active::before{
+    left: 50%;
+}
+
+
+
+.toggle-panel{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    z-index: 2;
+    transition: .6s ease-in-out;
+}
+.toggle-panel.toggle-left{
+    left: 0;
+    transition-delay: 1.2s;
+}
+.welcome-container.active .toggle-panel.toggle-left{
+    left: -50%;
+    transition-delay: .6s;
+}
+
+.toggle-panel.toggle-right{
+    right: -50%;
+    transition-delay: .6s;
+}
+.welcome-container.active .toggle-panel.toggle-right{
+    right: 0;
+    transition-delay: 1.2s;
+}
+
+.toggle-panel p{
+    padding: 5px;
+}
+
+.toggle-panel button{
+    margin-left: 7px;
+}
+
+.btn-welcome-side{
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    transition: 0.5s;
+    background-color: #5f4b8b;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+
+

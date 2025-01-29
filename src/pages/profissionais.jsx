@@ -74,7 +74,7 @@ export default function profissionais() {
 
               <div className="card-buttons">
                 {card.buttons.map((button, buttonIndex) => (
-                  <button key={buttonIndex}>
+                  <button key={buttonIndex} className='profissionais-button'>
                     {button.label}
                   </button>
                 ))}

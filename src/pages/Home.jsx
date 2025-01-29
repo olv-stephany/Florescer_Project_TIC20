@@ -27,7 +27,7 @@ const Home = () => {
             <section>
                 <Sobre/>
             </section>
-            <section>
+            <section className='login-position'>
                 <Login/>
             </section>
         </main>
