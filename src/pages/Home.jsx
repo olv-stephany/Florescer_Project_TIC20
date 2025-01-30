@@ -3,7 +3,6 @@ import Estagios from '../components/estagios'
 import Depoimentos from '../components/depoimentos'
 import Sobre from '../components/sobre'
 import Login from '../components/login'
-import Navbar from '../components/Navbar'
 import '../css/home.css'
 
 
@@ -11,9 +10,6 @@ const Home = () => {
   return (
     <>
     <body>
-        <header>
-            <Navbar/>
-        </header>
         <main>
             <section>
                 <Carrossel/>
@@ -24,10 +20,10 @@ const Home = () => {
             <section>
                 <Depoimentos/>
             </section>
-            <section>
+            <section id='Sobre'>
                 <Sobre/>
             </section>
-            <section className='login-position'>
+            <section id='login' className='login-position'>
                 <Login/>
             </section>
         </main>

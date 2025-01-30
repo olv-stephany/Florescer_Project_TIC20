@@ -1,33 +1,113 @@
-nav{
+/* Estilo da Navbar */
+.navbar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     margin-left: auto;
-    padding: 10px;
-    background-color: white;
-}
-
-.home{
-    padding: 10px;
-    color: black;
-}
-
-.sobre{
-    padding: 10px;
-    color: black;
-}
-
-.unidades{
-    padding: 10px;
-    color: black;
-}
-
-.login{
-    padding: 10px;
-    color: black;
-}
-
-h1{
+  }
+  
+  .navbartext{
     padding-bottom: 30px;
-}
-
-button{
+  }
+  
+  .navbarbotton{
     margin-bottom: 100px;
-}
+  }
+  
+  .navbar {
+    display: table;
+    width: 50%;
+    text-align: center;
+  }
+  
+  .navbar a {
+    display: table-cell;
+    padding: 10px 15px;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    border-right: 1px solid #ddd;
+    transition: 0.5s;
+  }
+  
+  .navbar a:last-child {
+    border-right: none;
+  }
+  
+  .navbar a:hover {
+    background-color: #76a9c3;
+    /* cor azulzinho mais escuro */
+    color: white;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  header #logo {
+    width: 50px;
+    /* Tamanho da logomarca */
+    height: auto;
+  }
+  
+  header h1 {
+    font-size: 1.5rem;
+    color: #5f4b8b;
+    /* Lavanda suave */
+    font-family: 'Helvetica', sans-serif;
+    margin: 0;
+  }
+  
+  /* Tabela de navegação com fundo lavanda */
+  header .nav-table {
+    width: 100%;
+    margin-top: 20px;
+    background-color: #F1A7C1;
+    /* Fundo lavanda */
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    /* Maior separação entre os links */
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  header .nav-table a {
+    color: white;
+    /* Cor branca para os links */
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  header .nav-table a:hover {
+    text-decoration: underline;
+  }
+
+  .navbarbotton{
+    background-color: #89c2d9;
+  /* Azul claro */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  }
+
+  button:hover {
+    background-color: #76a9c3;
+    /* Azul mais escuro ao passar o mouse */
+  }
+  
+  button:focus {
+    outline: none;
+  }
