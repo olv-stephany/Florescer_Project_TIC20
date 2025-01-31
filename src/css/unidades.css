@@ -8,3 +8,27 @@
     height: 25vh;
     
 }
+.map-container{
+    margin: 2% 8%; /*ajuste na posiçao do mapa*/
+}
+.localidades-container{
+    background-color: #5f4b8bd6;
+    padding: 50px 0px;
+    margin: 0% 6.5%;
+    color: #fff;
+    border-radius: 10px;
+}
+.tittle-style{
+    font-size: 25px;
+}
+.profissionais-container{
+    margin: 3.0%;
+}
+.other-options-style{
+    text-align: center;
+}
+@media (max-width: 768px) {
+    .other-options-style{
+        font-size: 20px;
+    }
+}

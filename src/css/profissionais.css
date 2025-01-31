@@ -1,0 +1,13 @@
+.cards-container{
+    margin: 5% 2%;
+}
+.card{
+    height: 50vh;
+    padding: 15px 8px;
+    border-radius: 9px;
+    justify-content: center;
+    text-align: center;
+}
+navigation{
+    color: black;
+}

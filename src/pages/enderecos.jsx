@@ -5,7 +5,7 @@ import { faCalendarDays } from '@fortawesome/free-solid-svg-icons';
 
 export default function enderecos() {
     return (
-        <>
+        <div className='enderecos-container'>
             <div>
                 <h3>Unidade 1 - Maraponga</h3>
                 <p> Rua das Flores, 123 -  Cidade Azul, Maraponga</p>
@@ -30,6 +30,6 @@ export default function enderecos() {
                 <button className='enderecos-button'><FontAwesomeIcon icon={faPhone} /></button>
                 <button className='enderecos-button'><FontAwesomeIcon icon={faCalendarDays}/></button>
             </div>
-        </>
+        </div>
     )
 }

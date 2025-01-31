@@ -25,22 +25,22 @@ export default function map (){
         {
           coordinates: [ -38.57285499556672, -3.796570901502187],
           label: 'Unidade de Apoio 1 - Maraponga',
-          color:'red',
+          color:'#5f4b8b',
         },
         {
           coordinates: [ -38.552147481535776, -3.768421936979245,],
           label: 'Unidade de Apoio 2 - Montese',
-          color:'red',
+          color:'#5f4b8b',
         },
         {
           coordinates: [ -38.49896533872094, -3.7447311383060526],
           label: 'Unidade de Apoio 2 - Aldeota',
-          color:'red',
+          color:'#5f4b8b',
         },
         {
           coordinates: [ -38.536220774954344, -3.7432440678572476],
           label: 'Unidade de Apoio 2 - Benfica',
-          color:'red',
+          color:'#5f4b8b',
         },
       ];
 
@@ -57,7 +57,7 @@ export default function map (){
                 color: marker.color,
               }),
               stroke: new Stroke({
-                color: 'red',
+                color: '#f4f7fa',
                 width: 2,
               }),
             }),
@@ -86,7 +86,7 @@ export default function map (){
   }, []);
 
   return (
-  <div ref={mapRef} style={{ width: '100%', height: '55vh' }}>
+  <div ref={mapRef} style={{ width: '100%', height: '50vh' }}>
   </div>
   )
 };

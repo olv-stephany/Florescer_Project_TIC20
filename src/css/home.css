@@ -51,6 +51,9 @@ a {
   /* Lavanda para links */
   text-decoration: none;
 }
+h1{
+  color: #5f4b8b;
+}
 
 a:hover {
   text-decoration: underline;

@@ -5,7 +5,7 @@ import image3 from '../images/psicologa3.jpg'
 import image4 from '../images/psicologa4.jpg'
 import image5 from '../images/psicologo5.jpg'
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination, Navigation } from 'swiper/modules';
+import { Navigation } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation'
 import 'swiper/css/pagination'
@@ -57,14 +57,14 @@ export default function profissionais() {
 
   return (
     <div className='cards-container' >
-      <Swiper modules={[Pagination, Navigation]}
-        pagination={{ clickable: false }}
+      <Swiper modules={[Navigation]}
+        
         navigation
         spaceBetween={10}
         slidesPerView={3}>
 
         {cards.map((card, index) => (
-          <SwiperSlide key={index}>
+          <SwiperSlide key={index} className='card'>
             <img src={card.image} className='cards-syle' alt={card.name} />
 
             <div className="info-style">

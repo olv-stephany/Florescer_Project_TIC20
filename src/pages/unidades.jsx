@@ -7,7 +7,7 @@ const unidades = () => {
     return (
         <div>
             <header>
-                <h1>Unidades de Apoio</h1>
+                <h1 className='tittle-style'>Unidades de Apoio</h1>
                 <p>Encontre a unidade mais proxima de você.</p>
             </header>
             <main>
@@ -18,7 +18,7 @@ const unidades = () => {
                     <Enderecos></Enderecos>
                 </section>
                 <section className='profissionais-container'>
-                    <h2>Ou Realize Sessões Online com Um de Nossos Profissionais:</h2>
+                    <h2 className='other-options-style'>Ou Realize Sessões Online com Um de Nossos Profissionais:</h2>
                     <Profissionais></Profissionais>
                 </section>
             </main>
