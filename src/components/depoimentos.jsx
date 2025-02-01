@@ -13,14 +13,14 @@ export default function Depoimentos() {
                         <FontAwesomeIcon icon={faUser} className='style-icon'/>
                         <h3>User_01</h3>
                     </div>
-                    <p>otimo atendimento!</p>
+                    <p>Ótimo atendimento dos profissionais! Faço terapia há um tempo pela Florescer e é incrível o quanto mudou minha vida.</p>
                 </div>
                 <div className="depoimento">
                     <div className="depoimento-header">
                         <FontAwesomeIcon icon={faUser}  className='style-icon'/>
                         <h3>User_011</h3>
                     </div>
-                    <p>sempre bom contar com ajuda psicologica em momentos dificeis.</p>
+                    <p>É sempre bom contar com ajuda psicologica em momentos dificeis! As consultas online são muito atenciosas.</p>
                 </div>
             </div>
 
