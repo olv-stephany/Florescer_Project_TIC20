@@ -11,24 +11,21 @@ import image4 from '../images/img4 - carrossel.jpg'
 {/* swiper = biblioteca de animaçoes e slides */ }
 
 export default function Carrossel() {
-    const slides = [image1, image2, image3, image4];
+    const slides = [image1, image2, image3, image4]
     return (
         <div className='carrossel-container'>
-            <Swiper 
-                modules={[Pagination, Autoplay]}
-                pagination={{ clickable: true }} 
-                autoplay={{ delay: 3000, disableOnInteraction: false }} 
-                spaceBetween={0} 
+            <Swiper modules={[Pagination, Autoplay]}
+                pagination={{ clickable: true }}
+                autoplay={{delay: 3000, disableOnInteraction: false}}
+                spaceBetween={0}
                 slidesPerView={1}>
                 {slides.map((slide, index) => (
                     <SwiperSlide key={index}>
-                        <div className="card">
-                            <img src={slide} alt={`Slide ${index}`} className="carrossel-image" />
-                        </div>
+                        <img src={slide} width={1100} height={680}/>
                     </SwiperSlide>
                 ))}
             </Swiper>
         </div>
-    );
+    )
 }
 
