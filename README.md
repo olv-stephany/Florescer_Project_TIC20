@@ -24,7 +24,7 @@ This project consists of a community psychological support platform, We develope
 #### Contributors 🤝 :
 - Marx Victor: Added functions and events with React.
 - Luanna Galliza: Styling pages and elements.
-- Stephany Oliveira: Structured the page and aid in styling.
+- Stephany Oliveira: Structured the page and help in styling.
 
 **Class:** FSN3  
 **Professors:** Fernanda Nascimento e Gabriel Bezerra  
